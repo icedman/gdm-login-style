@@ -1,0 +1,11 @@
+/* custom */
+.login-dialog {
+    background-color: transparent;
+}
+
+#lockScreenGroup,
+#lockDialogGroup {
+  background: url(file:///usr/share/backgrounds/gdm-login-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }

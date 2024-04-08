@@ -1,0 +1,21 @@
+{
+  "description": "Customize the GDM Login",
+  "name": "GDM Login Style",
+  "original-authors": [
+    "icedman"
+  ],
+  "shell-version": [
+    "45", "46"
+  ],
+  "url": "https://github.com/icedman/gdm-login-style",
+  "uuid": "gdm-login-style@icedman.github.com",
+  "schema-id": "org.gnome.shell.extensions.gdm-login-style",
+  "gettext-domain": "gdm-login-style",
+  "donations": {
+    "buymeacoffee": "icedman"
+  },
+  "session-modes": [
+    "gdm"
+  ],
+  "version": 100
+}

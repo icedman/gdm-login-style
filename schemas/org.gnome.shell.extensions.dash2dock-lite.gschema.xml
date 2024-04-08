@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gdm-login-style">
+  <schema path="/org/gnome/shell/extensions/gdm-login-style/" id="org.gnome.shell.extensions.gdm-login-style">
+    <key type="s" name="background-image">
+        <default>"/usr/share/backgrounds/gdm-login-background.jpg"</default>
+        <summary>Background Image</summary>
+        <description>Path to background image</description>
+    </key>
+  </schema>
+</schemalist>
