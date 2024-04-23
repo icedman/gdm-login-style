@@ -10,7 +10,13 @@ install: build
 	sudo rm -rf /usr/local/share/gnome-shell/extensions/gdm-login-style@icedman.github.com/
 	sudo mkdir -p /usr/local/share/gnome-shell/extensions/gdm-login-style@icedman.github.com/
 	sudo cp -R ./* /usr/local/share/gnome-shell/extensions/gdm-login-style@icedman.github.com/
-	sudo -u gdm dbus-launch gsettings set org.gnome.shell enabled-extensions "['gdm-login-style@icedman.github.com']"
+# 	sudo -u gdm dbus-launch gsettings set org.gnome.shell enabled-extensions "['gdm-login-style@icedman.github.com']"
+	sudo -u gdm dbus-launch gnome-extensions enable gdm-login-style@icedman.github.com
+	sudo cp -n ./background.jpg /usr/share/backgrounds/gdm-login-background.jpg
+
+uninstall:
+	echo "removing..."
+	sudo rm -rf /usr/local/share/gnome-shell/extensions/gdm-login-style@icedman.github.com/
 
 clean:
 	rm -rf ./build
